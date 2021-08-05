@@ -1,0 +1,83 @@
+{
+  "_args": [
+    [
+      "request@https://github.com/aldeed/request/tarball/15f1a87cddb21050f5d79a2f4538150644cbc36e",
+      "/Users/rikinzan/Documents/meteor/bpaas-portal/packages/cfs-data-man/.npm/package-new-q3z4aj.78ltq"
+    ]
+  ],
+  "_from": "request@https://github.com/aldeed/request/tarball/15f1a87cddb21050f5d79a2f4538150644cbc36e",
+  "_id": "request@https://github.com/aldeed/request/tarball/15f1a87cddb21050f5d79a2f4538150644cbc36e",
+  "_inBundle": false,
+  "_integrity": "sha512-pM2ou/4cqmys2Hpbj31+OBwdHkNdwGHemtLxfcB5Bqg0m4RhQEf3Ofxi2lCIuN2xjaKTZaaDADraa5OY/OYGig==",
+  "_location": "/request",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "request@https://github.com/aldeed/request/tarball/15f1a87cddb21050f5d79a2f4538150644cbc36e",
+    "name": "request",
+    "escapedName": "request",
+    "rawSpec": "https://github.com/aldeed/request/tarball/15f1a87cddb21050f5d79a2f4538150644cbc36e",
+    "saveSpec": "https://github.com/aldeed/request/tarball/15f1a87cddb21050f5d79a2f4538150644cbc36e",
+    "fetchSpec": "https://github.com/aldeed/request/tarball/15f1a87cddb21050f5d79a2f4538150644cbc36e"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": false,
+  "_spec": "https://github.com/aldeed/request/tarball/15f1a87cddb21050f5d79a2f4538150644cbc36e",
+  "_where": "/Users/rikinzan/Documents/meteor/bpaas-portal/packages/cfs-data-man/.npm/package-new-q3z4aj.78ltq",
+  "author": {
+    "name": "Mikeal Rogers",
+    "email": "mikeal.rogers@gmail.com"
+  },
+  "bugs": {
+    "url": "http://github.com/request/request/issues"
+  },
+  "dependencies": {
+    "aws-sign2": "~0.5.0",
+    "bl": "~0.9.0",
+    "caseless": "~0.7.0",
+    "combined-stream": "~0.0.5",
+    "forever-agent": "~0.5.0",
+    "form-data": "~0.1.0",
+    "hawk": "1.1.1",
+    "http-signature": "~0.10.0",
+    "json-stringify-safe": "~5.0.0",
+    "mime-types": "~1.0.1",
+    "node-uuid": "~1.4.0",
+    "oauth-sign": "~0.5.0",
+    "qs": "~2.3.1",
+    "stringstream": "~0.0.4",
+    "tough-cookie": ">=0.12.0",
+    "tunnel-agent": "~0.4.0"
+  },
+  "description": "Simplified HTTP request client.",
+  "devDependencies": {
+    "eslint": "0.5.1",
+    "rimraf": "~2.2.8",
+    "tape": "~3.0.0",
+    "taper": "~0.3.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "homepage": "https://github.com/request/request#readme",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "request",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/request/request.git"
+  },
+  "scripts": {
+    "lint": "node node_modules/.bin/eslint lib/ *.js tests/ && echo Lint passed.",
+    "test": "npm run lint && node node_modules/.bin/taper tests/test-*.js"
+  },
+  "tags": [
+    "http",
+    "simple",
+    "util",
+    "utility"
+  ],
+  "version": "2.48.1"
+}
